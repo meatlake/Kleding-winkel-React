@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -7,6 +9,10 @@ body {
 .border-radius {
     border-radius: 5px;
 }
+
+
+/* Header/nav section CSS */
+
 
 nav {
     display: flex;
@@ -41,4 +47,44 @@ nav > ul {
 
 .header--link:hover {
     border: 1px solid black;
+}
+
+
+
+/* Main section CSS */
+
+
+
+main {
+    padding: 75px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    padding: 100px;
+    background-image: linear-gradient(135deg, rgba(255,165,27,1) 0%, rgba(251,230,133,1) 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero--infocontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--title {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4.5em;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.hero--text {
+    margin-bottom: auto;
+}
+
+.hero--button {
+    
 }
