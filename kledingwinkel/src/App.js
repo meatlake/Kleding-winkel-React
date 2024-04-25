@@ -1,12 +1,14 @@
 import React from "react";
 import Header from "./components/Header";
-import Main from "./components/Main";
+import Hero from "./components/Hero";
+import Carousel from "./components/Carousel";
 
 export default function App() {
-    return (
-        <div>
-            <Header />
-            <Main />
-        </div>
-    )
+  return (
+    <div>
+      <Header />
+      {/* <Hero /> */}
+      <Carousel />
+    </div>
+  );
 }
