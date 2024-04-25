@@ -28,16 +28,18 @@ export default function Carousel() {
         text="Nee het is echt deze!"
         price="38,-"
       />
-      {/* <Card
-        title="Koningsdag sweater 5"
-        text="Dé koningsdag sweater die je moet hebben!"
-        price="€24,99"
+      <Card
+        img="https://www.lekkergebekt.nl/wp-content/uploads/2023/10/LG_Sweater_Rood_Pilsje-1.png"
+        title="Pilsje Sweater"
+        text="Voor de pilsers."
+        price="25,-"
       />
       <Card
-        title="Koningsdag sweater 6"
-        text="Dé koningsdag sweater die je moet hebben!"
-        price="€24,99"
-      /> */}
+        img="https://www.lekkergebekt.nl/wp-content/uploads/2020/11/brabo_hoodies_grijs.jpg"
+        title="Brabo Hoodie"
+        text="Brabo respresent!"
+        price="29,-"
+      />
     </div>
   );
 }

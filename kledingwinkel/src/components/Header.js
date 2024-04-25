@@ -4,9 +4,10 @@ import logo from "/Users/julianvleesenbeek/Desktop/React practices/Kleding winke
 export default function Header() {
   return (
     <>
-      <div className="header--alert">
+      {/* <div className="header--alert">
         <p className="alert--text">Koningsdag korting tot 50%!</p>
-      </div>
+        <p className="alert--text">Koningsdag korting tot 50%!</p>
+      </div> */}
       <nav>
         <img src={logo} alt="Logo" className="header--img" />
         <h1>Kleding Winkel</h1>

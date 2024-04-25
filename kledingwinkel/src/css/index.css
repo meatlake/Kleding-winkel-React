@@ -45,24 +45,25 @@ nav > ul {
 }
 
 .header--link:hover {
-    border: 1px solid black;
+    background-color: #0763DF;
+    color: white;
 }
 
 .header--alert {
-    background-image: linear-gradient(135deg, rgba(255,165,27,1) 0%, rgba(251,230,133,1) 100%);
+    background-color: rgba(255,165,27,1);
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 @keyframes marquee {
-    0% { transform: translateX(-100%); }
-    100% { transform: translateX(100%); }
+    0% { transform: translateX(-100vh); }
+    100% { transform: translateX(100vh); }
 }
   
 .alert--text {
     display: inline-block;
-    animation: marquee 10s linear infinite;
+    animation: marquee 20s linear infinite;
 }
 
 
@@ -110,13 +111,13 @@ nav > ul {
 
 .carousel {
     display: flex;
-    overflow-x: auto;
     gap: 20px;
     padding: 50px 50px;
+    overflow-x: auto;
 }
 
 .card {
-    max-width: 300px;
+    min-width: 300px;
     color: #755A3B;
     padding: 20px;
     background-image: linear-gradient(135deg, rgba(255,165,27,1) 0%, rgba(251,230,133,1) 100%);
@@ -132,6 +133,9 @@ nav > ul {
 .card--infocontainer {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-between;
 }
 
 .card--title {
@@ -145,13 +149,9 @@ nav > ul {
 }
 
 .card--price {
-    align-self: flex-start;
+    margin: 0;
     color: rgba(245, 166, 35, 1);
     font-size: 2em;
     padding: 10px 20px;
     background-color: white;
-}
-
-.card--button {
-    align-self: flex-start;
 }
