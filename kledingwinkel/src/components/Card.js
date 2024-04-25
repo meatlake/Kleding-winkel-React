@@ -11,7 +11,7 @@ export default function Card(props) {
       <div className="card--infocontainer">
         <h2 className="card--title">{props.title}</h2>
         <p className="card--text">{props.text}</p>
-        <p className="card--price border-radius">€24,99</p>
+        <p className="card--price border-radius">€{props.price}</p>
         <button className="card--button">In winkelmand</button>
       </div>
     </div>

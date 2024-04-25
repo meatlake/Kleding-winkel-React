@@ -6,27 +6,27 @@ export default function Carousel() {
     <div className="carousel">
       <Card
         img="https://www.lekkergebekt.nl/wp-content/uploads/2024/03/Mockup_Sweater_Willempie-600x600.png"
-        title="Koningsdag sweater 1"
+        title="Willempie Sweater"
         text="Dé koningsdag sweater die je moet hebben!"
-        price="€24,99"
+        price="45,-"
       />
       <Card
         img="https://www.lekkergebekt.nl/wp-content/uploads/2024/03/Mockup_Sweater_Koning-pils_wit.png"
-        title="Koningsdag sweater 2"
+        title="Koning Pils Sweater"
         text="Dit is echt de beste sweater!"
-        price="€24,99"
+        price="34,-"
       />
       <Card
         img="https://www.lekkergebekt.nl/wp-content/uploads/2024/03/Mockup_Sweater_King-balk-600x600.png"
-        title="Koningsdag sweater 3"
+        title="King Sweater"
         text="Of is toch deze sweater de beste?"
-        price="€24,99"
+        price="40,-"
       />
       <Card
-        img="https://www.lekkergebekt.nl/wp-content/uploads/2024/03/Mockup_Sweater_Koning-pils_wit.png"
-        title="Koningsdag sweater 4"
+        img="https://www.lekkergebekt.nl/wp-content/uploads/2024/03/Mockup_Sweater_LamLeveDeKoning_wit-600x600.png"
+        title="Lam Leve De Koning Sweater"
         text="Nee het is echt deze!"
-        price="€24,99"
+        price="38,-"
       />
       {/* <Card
         title="Koningsdag sweater 5"
