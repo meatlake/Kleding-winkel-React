@@ -17,7 +17,7 @@ export default function Carousel() {
         price="€24,99"
       />
       <Card
-        img="https://www.lekkergebekt.nl/wp-content/uploads/2024/03/Mockup_Sweater_Koning-pils_wit.png"
+        img="https://www.lekkergebekt.nl/wp-content/uploads/2024/03/Mockup_Sweater_King-balk-600x600.png"
         title="Koningsdag sweater 3"
         text="Of is toch deze sweater de beste?"
         price="€24,99"
