@@ -4,7 +4,7 @@ export default function Card(props) {
   return (
     <div className="card border-radius">
       <img
-        src="https://www.lekkergebekt.nl/wp-content/uploads/2024/03/Mockup_Sweater_Willempie-600x600.png"
+        src={props.img}
         alt="Koningsdag sweater"
         className="card--img border-radius"
       />
